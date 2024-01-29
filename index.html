@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card Project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="card-container">
+      <h1 id="element">USER DETAILS</h1>
+      <table>
+        <tbody>
+          <tr>
+            <td><span>First Name:</span></td>
+            <td><span class="first-name"></span></td>
+          </tr>
+
+          <tr>
+            <td><span>Last Name:</span></td>
+            <td><span class="last-name"></span></td>
+          </tr>
+
+          <tr>
+            <td><span>Country:</span></td>
+            <td><span class="country"></span></td>
+          </tr>
+
+          <tr>
+            <td><span>Phone number:</span></td>
+            <td><span class="phone-number"></span></td>
+          </tr>
+          <tr>
+            <td><span>State:</span></td>
+            <td><span class="state"></span></td>
+          </tr>
+
+          <tr>
+            <td><span>city Name:</span></td>
+            <td><span class="city"></span></td>
+          </tr>
+
+          <tr>
+            <td><span>village Name:</span></td>
+            <td>
+              <span class="village"></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>user Details..</i>.", "USER DETAILS..."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
